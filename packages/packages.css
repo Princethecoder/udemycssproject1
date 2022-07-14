@@ -1,0 +1,37 @@
+main {
+  padding-top: 32px;
+}
+.package-plan {
+  border: 2px solid #0e4f1f;
+  background: rgba(45, 223, 92, 0.3);
+  margin-bottom: 8px;
+  padding-left: 32px;
+  width: 80%;
+}
+
+.package-plan:hover {
+  border-color: red;
+}
+
+.package-plan__link {
+  text-decoration: none;
+}
+.package-plan__heading {
+  color: black;
+}
+.package-plan__subheading {
+  color: gray;
+}
+.package-plan__info {
+  border: 1px solid grey;
+  color: #0e4f1f;
+  background: white;
+  padding: 8px;
+  width: 80%;
+}
+.package-plan__premium {
+  background: #0e4f1f;
+}
+.package-plan__premium .package-plan__heading {
+  color: white;
+}
